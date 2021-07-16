@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "COMPATIBLE_SCREEN_MANIFEST",
+    "kind": "Directory"
+  },
+  "applicationId": "com.masai.a61july_scroll_view_and_resources_kaksha_sign_up_you2",
+  "variantName": "debug",
+  "elements": []
+}

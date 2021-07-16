@@ -1,0 +1,4 @@
+com/masai/a61july_scroll_view_and_resources_kaksha_sign_up_you2/BuildConfig.java
+ com.masai.a61july_scroll_view_and_resources_kaksha_sign_up_you2.BuildConfig
+com/masai/a61july_scroll_view_and_resources_kaksha_sign_up_you2/MainActivity.java
+ com.masai.a61july_scroll_view_and_resources_kaksha_sign_up_you2.MainActivity

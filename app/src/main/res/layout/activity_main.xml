@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/T1Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#18A0FB"
+        android:text="@string/create_account"
+        app:drawableStartCompat="@drawable/back_button" />
+
+    <EditText
+        style="@style/NameText"
+        android:layout_marginTop="50dp"
+        android:hint="@string/alma_lawson_example_com" />
+
+    <EditText
+        style="@style/NameText"
+        android:layout_marginTop="10dp"
+        android:hint="@string/jane_cooper"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        style="@style/NameText"
+        android:layout_marginTop="10dp"
+        android:hint="@string/password_minimum_6_character" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/transparent"
+        android:text="@string/use_phone_number"
+        android:textAllCaps="false"
+        android:textColor="#18A0FB" />
+
+    <Button
+        style="@style/Button"
+        android:background="@drawable/rect"
+        android:text="@string/sign_up"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/or"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        style="@style/Button"
+        android:background="@drawable/rect_for_fb"
+        android:drawableStart="@drawable/ic_facebook"
+        android:paddingStart="30dp"
+        android:text="@string/continue_with_facebook"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        tools:ignore="RtlSymmetry" />
+
+</LinearLayout>
